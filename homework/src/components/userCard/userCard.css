@@ -1,0 +1,39 @@
+
+.userName,
+.userId,
+.userGender{
+    padding: 20px 0px 10px 20px ;
+    background-color: lightslategray;
+    border-radius: 16px;
+    max-width: 300px;
+    color: aliceblue;
+    
+}
+.userName{
+    font-size: 22px;
+    font-weight:bold ;
+
+}
+.userId{
+    position: relative;
+    left: -15px;
+    top: -15px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.userGender{
+    position: relative;
+    left: -15px;
+    top: -20px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.female{
+    background-color: lightpink;
+}
+
+.male{
+    background-color: lightskyblue;
+}
