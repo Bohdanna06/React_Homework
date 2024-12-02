@@ -1,39 +1,53 @@
-
-.userName,
-.userId,
-.userGender{
-    padding: 20px 0px 10px 20px ;
-    background-color: lightslategray;
-    border-radius: 16px;
-    max-width: 300px;
-    color: aliceblue;
-    
-}
 .userName{
+    
     font-size: 22px;
     font-weight:bold ;
-
 }
+
 .userId{
-    position: relative;
-    left: -15px;
-    top: -15px;
     font-size: 14px;
     font-weight: bold;
 
 }
 .userGender{
-    position: relative;
-    left: -15px;
-    top: -20px;
     font-size: 14px;
     font-weight: bold;
 
+}
+.userState{
+    font-size: 14px;
+    font-weight: bold;
 }
 .female{
     background-color: lightpink;
+    border-radius: 16px;
+    max-width: 300px;
+    color: aliceblue;
+    padding: 20px 0px 10px 20px ;
+    margin: 20px;
 }
 
 .male{
     background-color: lightskyblue;
+    border-radius: 16px;
+    max-width: 300px;
+    color: aliceblue;
+    padding: 20px 0px 10px 20px ;
+    margin: 20px;
+}
+.user{
+    background-color: lightslategray;
+    border-radius: 16px;
+    max-width: 300px;
+    color: aliceblue;
+    padding: 20px 0px 10px 20px ;
+    margin: 20px;
+
+}
+.btn{
+    border-radius: 16px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    color:gray;
 }
