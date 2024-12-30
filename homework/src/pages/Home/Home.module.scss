@@ -1,0 +1,21 @@
+.container{
+    padding: 50px;
+    border: 1px solid ;
+    background-color: darkslateblue;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 50px;
+}
+.list{
+    gap: 20px;
+    font-size: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+
+}

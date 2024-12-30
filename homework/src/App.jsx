@@ -1,42 +1,17 @@
-import React from 'react';
-import UserList from './components/UserList';
 
-
-const users = [
-    {
-        name: 'Kate', 
-        id: '1',
-        gender: 'female'
-    },
-    {
-        name: 'Mary',
-        id: '2', 
-        gender: 'female'
-    },
-    {
-        name: 'John', 
-        id: '3', 
-        gender: 'male'
-    },
-    {
-        name: 'Nik', 
-        id: '4',
-        gender: 'male'
-    },
-    {
-        name: 'Jane', 
-        id: '5',
-    }
-    
-];
+import{Routes, Route} from 'react-router'
+import { HomePage } from './pages/Home';
+import { Users } from './pages/Users/Index';
+import { Messages } from './pages/Messages';
 
 
 function App(){
-    return (
-    <>
-    
-    <UserList users = {users}/>
-    
+    return (<>
+        <Routes>
+            <Route path='/' element={<HomePage/>}/>
+            <Route path='Users' element={ <Users/>}/>
+            <Route path='Messages' element={<Messages/>}/>
+        </Routes>
     </>
     );
 }

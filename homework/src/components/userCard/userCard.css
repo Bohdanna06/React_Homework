@@ -1,5 +1,11 @@
+.commonStyle{
+    border-radius: 16px;
+    max-width: 300px;
+    color: aliceblue;
+    padding: 20px 0px 10px 20px ;
+    margin: 20px;
+}
 .userName{
-    
     font-size: 22px;
     font-weight:bold ;
 }
@@ -20,34 +26,18 @@
 }
 .female{
     background-color: lightpink;
-    border-radius: 16px;
-    max-width: 300px;
-    color: aliceblue;
-    padding: 20px 0px 10px 20px ;
-    margin: 20px;
 }
 
 .male{
     background-color: lightskyblue;
-    border-radius: 16px;
-    max-width: 300px;
-    color: aliceblue;
-    padding: 20px 0px 10px 20px ;
-    margin: 20px;
+    
 }
 .user{
     background-color: lightslategray;
-    border-radius: 16px;
-    max-width: 300px;
-    color: aliceblue;
-    padding: 20px 0px 10px 20px ;
-    margin: 20px;
+
 
 }
 .btn{
-    border-radius: 16px;
-    padding: 10px;
-    border: 1px solid lightgray;
     background-color: whitesmoke;
     color:gray;
 }

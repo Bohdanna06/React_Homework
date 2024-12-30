@@ -22,7 +22,7 @@ class UserCard extends Component {
     if(gender === 'male'){
         return (
             <>
-            <article className="male">
+            <article className="male commonStyle">
                 <h1 className="userName"> Name: {name? name: 'User'}</h1>
                 <p className="userId"> ID: {id? id:'No id'}</p>
                 <p className="userGender"> Gender: {gender}</p>
@@ -34,7 +34,7 @@ class UserCard extends Component {
     } else if (gender === 'female') {
         return (
             <>
-            <article className="female">
+            <article className="female commonStyle">
                 <h1 className="userName"> Name: {name? name: 'User'}</h1>
                 <p className="userId"> ID: {id? id:'No id'}</p>
                 <p className="userGender"> Gender: {gender}</p>
@@ -46,7 +46,7 @@ class UserCard extends Component {
     } else{
         return (
             <>
-            <article className="user">
+            <article className="user commonStyle">
                 <h1 className="userName"> Name: {name? name: 'User'}</h1>
                 <p className="userId"> ID: {id? id:'No id'}</p>
                 <p className="userGender"> Gender:  No gender</p>
